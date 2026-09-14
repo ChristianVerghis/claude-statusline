@@ -1,0 +1,6 @@
+# project.yml — dashboard manifest (auto-read by ~/dev/dashboard)
+name: claude-statusline
+kind: tool
+status: active
+description: Claude Code status line: model, context usage, 5h/7d quota bars, git branch
+actions: {}              # e.g. test: pytest -q
