@@ -3,4 +3,7 @@ name: claude-statusline
 kind: tool
 status: active
 description: Claude Code status line: model, context usage, 5h/7d quota bars, git branch
-actions: {}              # e.g. test: pytest -q
+repo: https://github.com/ChristianVerghis/claude-statusline
+actions:
+  test: ./test.sh
+  install: ./install.sh
