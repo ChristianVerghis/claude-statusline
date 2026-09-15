@@ -14,9 +14,13 @@ resets 5:50pm (1h29m) | resets Tue, 8:00am
 
 Segments are dropped when Claude Code doesn't send the data (for example, rate limits on API-key billing), so it never breaks.
 
+## Status
+
+As of 2026-09-15: in daily use; tested on macOS with Python 3.
+
 ## Install
 
-Requires `python3` and `jq`.
+Requires `python3` (3.7+, standard library only) and `jq` (used only by `install.sh` to edit `settings.json`).
 
 ```bash
 ./install.sh
@@ -45,3 +49,7 @@ Claude Code pipes a JSON document to the status line command on every refresh. T
 ## Credits
 
 Based on a script shared by a colleague, Bernardo Xavier. Windows shims removed and the per-refresh debug dump stripped.
+
+## License
+
+MIT. See [LICENSE](LICENSE).
